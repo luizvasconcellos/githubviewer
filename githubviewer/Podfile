@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'githubviewer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for githubviewer
+  pod 'Alamofire', '~> 5.2'
+  pod 'Kingfisher', '~> 6.0'
+
+  target 'githubviewerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'githubviewerUITests' do
+    # Pods for testing
+  end
+
+end

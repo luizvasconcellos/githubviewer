@@ -1,0 +1,6 @@
+framework module Pods_githubviewer {
+  umbrella header "Pods-githubviewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
